@@ -1,0 +1,138 @@
+@media (min-width: 1400px) {
+    .container {
+        width: 1320px;
+    }
+}
+@media (max-width: 1400px) {
+    .container {
+        width: 1200px;
+    }
+    .menu_bar {
+        display: none;
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        width: 950px;
+    }
+
+    .billboard-title {
+        width: 100%;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    .img43 {
+        width: 400px;
+        height: 400px;
+        margin-right: 50px;
+    }
+}
+@media (max-width: 992px) {
+    
+    .img43 {
+        width: 400px;
+        height: 400px;
+        transform: translateX(-70px);
+    }
+
+    .img-title2 {
+        margin-left: -30px;
+    }
+
+    .img55 {
+        margin: 0 10px;
+
+    }
+
+    .alarm {
+        font-size: 40px;
+    }
+
+    .h1-title {
+        font-size: 40px;
+        margin-bottom: -40px;
+    }
+
+    .p-title {
+        font-size: 20px;
+    }
+
+    .billboard-title {
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    .container {
+        width: 720px;
+    }
+    .menu_bar {
+        display: block;
+    }
+    .panel {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 560px;
+    }
+
+    .img43 {
+        width: 300px;
+        height: 300px;
+        transform: translateX(-90px);
+    }
+
+    .img-title2 {
+        margin-left: -40px;
+    }
+
+    .img55 {
+        margin: 0 10px;
+        width: 150px;
+        object-fit: cover;
+
+    }
+
+    .h1-title {
+        width: 360px;
+        font-size: 30px;
+        margin-bottom: -40px;
+        transform: translateX(50px);
+    }
+
+    .btn1 {
+        transform: translateX(50px);
+    }
+
+    .p-title {
+        font-size: 10px;
+        width: 190px;
+        transform: translateX(50px);
+    }
+
+    .billboard-title {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+}
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .img4 {
+        width: 500px;
+    }
+    .img5 {
+        width: 500px;
+    }
+
+    .billboard-title {
+        margin-left: -300px;
+        flex-wrap: wrap;
+        display: flex;
+    }
+}
